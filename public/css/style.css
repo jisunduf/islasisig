@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #ffc000;
+    --secondary-color: #a51300;
+}
+html, body {
+    background-image: url('../img/Website\ background.png');
+    background-position: center center;
+    background-size: cover;
+}
+/* Utility Classes */ 
+.text-decor-none {
+    text-decoration: none;
+}
+.list-none {
+    list-style: none;
+}
+.bg-yellow-gradient {
+    background: rgb(255,198,0);
+    background: linear-gradient(90deg, rgba(255,198,0,1) 0%, rgba(255,216,78,1) 43%, rgba(255,229,139,1) 71%, rgba(255,251,238,1) 100%);
+}
+.bg-red-gradient {
+    background: rgb(254,188,94);
+    background: linear-gradient(90deg, rgba(254,188,94,1) 0%, rgba(255,188,95,1) 43%, rgba(255,217,162,1) 71%, rgba(255,239,216,1) 100%);
+}
+.custom-checkbox {
+    background-color: #eee9d6;
+    border-radius: 5px;
+    border: 2px solid #f5d05d;
+}
+.btn-yellow {
+    background:  #f5d05d;
+}
+/* navbar */
+
+#navbar {
+    background: var(--primary-color);
+}
+
+#navbar img {
+    height: 60px;
+    width: 80px;
+    margin: .4rem .4rem .4rem 5rem;
+}
+
+#navbar ul {
+    padding-top: .7rem;
+    margin-bottom: .5rem;
+    margin-top: 2.1rem;
+}
+#navbar ul li {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* homepage */ 
+
+.carousel-inner img {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: 850px;
+    width: 100%;
+  }
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #333 !important;  
+}
+
+/* Products */ 
+#isla_products {
+    width: 80%;
+    margin-top: 3rem !important;
+}
+.isla-products-wrapper {
+    margin-bottom: 2rem;
+}
+#isla_products img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 250px;
+    height: auto;
+}
+.product-info {
+    margin-top: 1rem;
+}
+.product-title span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.product-description {
+    font-size: 1.1rem;
+}
+.product-start {
+    font-size: .9rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.product-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Franchise Form */
+
+#franchiseForm {
+    background: #e2ebf2;
+    /* padding: 1rem 1rem 1rem 2rem; */
+    margin: 2rem 8rem 3rem 2rem;
+    border: #ffc000 4px solid;
+    border-radius: 15px;
+}
+#franchiseForm h4 {
+    color: var(--secondary-color);
+    font-weight: 900;
+}
+#franchiseForm h6 {
+    font-weight: 700;
+}
+
+#franchiseForm input {
+    background-color: #eee9d6;
+    border-radius: 5px;
+    border: 2px solid #f5d05d;
+}
+#franchiseForm a {
+    color: #858a84;
+    font-weight: 800;
+    letter-spacing: .1rem;
+}
+
